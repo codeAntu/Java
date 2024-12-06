@@ -11,7 +11,16 @@ public class hw5 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter a string: ");
         String str = scanner.nextLine();
+        char[] arr = str.toLowerCase().toCharArray();
         int length = str.length();
-        System.out.println("The length of the string is: " + length);
+        int i;
+        int count =0;
+        for(i=0;i<length;i++){
+            char c = arr[i];
+            if(c>='a' && c<='z'){
+                count++;
+            }
+        }
+        System.out.println("The length of the string is: " + count);
     }
 }
