@@ -23,8 +23,10 @@ The program should check:
 - Print whether the strings `"hello"` and `"world"` are equal using `==` and `.equals()`. */
 
 package day1;
+
 import java.util.*;
 import java.util.Scanner;
+
 public class hw8 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -34,28 +36,30 @@ public class hw8 {
         String str2 = sc.nextLine();
         System.out.println("Enter the third string: ");
         String str3 = sc.nextLine();
-        if(str1 == str2){
-            System.out.println("The strings "+str1+" and "+str2+" are equal using ==");
+
+        
+        if (str1 == str2) {
+            System.out.println("The strings " + str1 + " and " + str2 + " are equal using ==");
         } else {
-            System.out.println("The strings "+str1+" and "+str2+" are not equal using ==");
+            System.out.println("The strings " + str1 + " and " + str2 + " are not equal using ==");
         }
-        if(str1.equals(str2)){
-            System.out.println( "The strings "+str1+" and "+str2+" are equal using .equals()");
+        if (str1.equals(str2)) {
+            System.out.println("The strings " + str1 + " and " + str2 + " are equal using .equals()");
         } else {
-            System.out.println("The strings "+str1+" and "+str2+" are not equal using .equals()");
+            System.out.println("The strings " + str1 + " and " + str2 + " are not equal using .equals()");
         }
 
-        if(str1 == str3){
-            System.out.println("The strings "+str1+" and "+str3+" are equal using ==");
+        if (str1 == str3) {
+            System.out.println("The strings " + str1 + " and " + str3 + " are equal using ==");
         } else {
-            System.out.println("The strings "+str1+" and "+str3+" are not equal using ==");
+            System.out.println("The strings " + str1 + " and " + str3 + " are not equal using ==");
         }
-        if(str1.equals(str3)){
-            System.out.println("The strings "+str1+" and "+str3+" are equal using .equals()");
+        if (str1.equals(str3)) {
+            System.out.println("The strings " + str1 + " and " + str3 + " are equal using .equals()");
         } else {
-            System.out.println("The strings "+str1+" and "+str3+" are not equal using .equals()");
+            System.out.println("The strings " + str1 + " and " + str3 + " are not equal using .equals()");
         }
     }
 }
 
-/*confuse*/
+/* confuse */
