@@ -26,7 +26,7 @@ public class Test4 {
   public static void main(String[] args) {
 
 
-    SmartPhone s = new SmartPhone() 
+    SmartPhone s = new Android();
     s.call();
     s.camera();
     s.internet();
